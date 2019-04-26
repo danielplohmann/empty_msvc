@@ -1,5 +1,5 @@
 # empty\_msvc
-A collection of "empty" MSVC projects (i.e. main() only consists of "return 0"), compiled using various version and configurations of Visual Studio.
+A collection of "empty" MSVC projects (i.e. main() only consists of "return 0"), compiled using various versions and configurations of Visual Studio.
 
 ## What is this good for?
 
@@ -20,7 +20,7 @@ So far, we used
 and created an empty WIN32 console project each and compiled it
 
  * using Debug and Release mode
- * using the following linking
+ * using the following linking configuration
    * Multi-threaded - /MT (i.e. static linking)
    * Multi-threaded Debug /MTd
    * Multi-threaded DLL - /MD (i.e. linking against the respective MSVCRT)
