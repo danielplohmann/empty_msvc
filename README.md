@@ -24,12 +24,12 @@ and created an empty WIN32 console project each and compiled it
 
   * using Debug and Release mode
   * using the following linking configuration
-   * Multi-threaded - /MT (i.e. static linking)
-   * Multi-threaded Debug /MTd
-   * Multi-threaded DLL - /MD (i.e. linking against the respective MSVCRT)
-   * Multi-threaded DLL debug - /MDd
-   * Single-threaded - /ML
-   * Single-threaded Debug - /MLd
+    * Multi-threaded - /MT (i.e. static linking)
+    * Multi-threaded Debug /MTd
+    * Multi-threaded DLL - /MD (i.e. linking against the respective MSVCRT)
+    * Multi-threaded DLL debug - /MDd
+    * Single-threaded - /ML
+    * Single-threaded Debug - /MLd
   * for a 32bit and 64bit target where possible
 
 The folder structure we used is:
