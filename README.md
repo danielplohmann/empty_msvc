@@ -1,5 +1,5 @@
 # empty\_msvc
-A collection of "empty" MSVC projects (i.e. main() only consists of "return 0"), compiled using various versions and configurations of Visual Studio.
+A collection of "empty" MSVC projects (i.e. main() only consists of "return 0"), compiled using various versions and configurations of Visual Studio along their respective PDB files.
 
 ## What is this good for?
 
@@ -33,7 +33,7 @@ and created an empty WIN32 console project each and compiled it
   * for a 32bit and 64bit target where possible
 
 The folder structure we used is:
-<visual\_studio\_version>/<build\_version>/<debug|release>/<visual\_studio\_version>\_<x86|x64>\_<debug|release>\_<mt|mtd|md|mdd>.<exe|pdb>
+<visual\_studio\_version>/<build\_version>/<debug|release>/<visual\_studio\_version>\_<x86|x64>\_<debug|release>\_<mt|mtd|md|mdd|ml|mld>.<exe|pdb>
 
 ## How can I use it?
 
