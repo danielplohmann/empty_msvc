@@ -10,12 +10,14 @@ For us, this is used as groundtruth in binary code indexing / function similarit
 
 So far, we used
 
-  * Visual Studio 2005
-  * Visual Studio 2008
-  * Visual Studio 2010
-  * Visual Studio 2012
-  * Visual Studio 2013
-  * Visual Studio 2015
+  * MSVC++ 6.0   MSC_VER 1200 (Visual Studio 6.0 Standard)
+  * MSVC++ 8.0   MSC_VER == 1400 (Visual Studio 2005 Express)
+  * MSVC++ 9.0   MSC_VER == 1500 (Visual Studio 2008 Express)
+  * MSVC++ 10.0  MSC_VER == 1600 (Visual Studio 2010 Express)
+  * MSVC++ 11.0  MSC_VER == 1700 (Visual Studio 2012 Express)
+  * MSVC++ 12.0  MSC_VER == 1800 (Visual Studio 2013 Community)
+  * MSVC++ 14.0  MSC_VER == 1900 (Visual Studio 2015 Community)
+  * MSVC++ 14.2  MSC_VER == 1920 (Visual Studio 2019 Community v16.0.2)
 
 and created an empty WIN32 console project each and compiled it
 
@@ -33,3 +35,8 @@ The folder structure we used is:
 ## How can I use it?
 
 In any way you want. If you find this useful, credit is always appreciated. :)
+
+## Changes
+
+* 2019-04-29 added VS6 and 2019
+* 2019-04-26 initial commit with VS 2005, 2008, 2010, 2012, 2013, 2015
