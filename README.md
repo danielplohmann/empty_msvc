@@ -18,6 +18,7 @@ So far, we used
   * MSVC++ 11.0  MSC_VER == 1700 (Visual Studio 2012 Express)
   * MSVC++ 12.0  MSC_VER == 1800 (Visual Studio 2013 Community)
   * MSVC++ 14.0  MSC_VER == 1900 (Visual Studio 2015 Community)
+  * MSVC++ 14.16 MSC_VER == 1916 (Visual Studio 2017 Community v15.9)
   * MSVC++ 14.2  MSC_VER == 1920 (Visual Studio 2019 Community v16.0.2)
 
 and created an empty WIN32 console project each and compiled it
@@ -38,6 +39,11 @@ The folder structure we used is:
 ## How can I use it?
 
 In any way you want. If you find this useful, credit is always appreciated. :)
+
+## How can I help?
+
+The above list of versions is not complete yet. 
+Should you have access to one of the missing versions, feel free to compile an empty WIN32 console project in the same way as provided above and create a pull request.
 
 ## Changes
 
