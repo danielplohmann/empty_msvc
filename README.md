@@ -17,6 +17,7 @@ So far, we used
   * MSVC++ 11.0  MSC_VER == 1700 (Visual Studio 2012 Express)
   * MSVC++ 12.0  MSC_VER == 1800 (Visual Studio 2013 Community)
   * MSVC++ 14.0  MSC_VER == 1900 (Visual Studio 2015 Community)
+  * MSVC++ 14.16  MSC_VER == 1916 (Visual Studio 2017 Community v15.9)
   * MSVC++ 14.2  MSC_VER == 1920 (Visual Studio 2019 Community v16.0.2)
 
 and created an empty WIN32 console project each and compiled it
@@ -38,5 +39,5 @@ In any way you want. If you find this useful, credit is always appreciated. :)
 
 ## Changes
 
-* 2019-04-29 added VS6 and 2019
+* 2019-04-29 added VS6, 2017, and 2019
 * 2019-04-26 initial commit with VS 2005, 2008, 2010, 2012, 2013, 2015
