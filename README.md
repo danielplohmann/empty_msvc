@@ -20,8 +20,9 @@ So far, we used
   * MSVC++ 14.0  MSC_VER == 1900 (Visual Studio 2015 Community)
   * MSVC++ 14.16 MSC_VER == 1916 (Visual Studio 2017 Community v15.9)
   * MSVC++ 14.2  MSC_VER == 1920 (Visual Studio 2019 Community v16.0.2)
+  * MSVC++ 14.28 MSC_VER == 1928 (Visual Studio 2019 Community v16.9.2)
 
-and created an empty WIN32 console project each and compiled it
+and created an empty WIN32 console project both EXE and DLL each and compiled it
 
   * using Debug and Release mode
   * using the following linking configuration
@@ -34,7 +35,7 @@ and created an empty WIN32 console project each and compiled it
   * for a 32bit and 64bit target where possible
 
 The folder structure we used is:
-<visual\_studio\_version>/<build\_version>/<debug|release>/<visual\_studio\_version>\_<x86|x64>\_<debug|release>\_<mt|mtd|md|mdd|ml|mld>.<exe|pdb>
+<visual\_studio\_version>/<build\_version>/<debug|release>/<dll|exe>/<visual\_studio\_version>\_<x86|x64>\_<debug|release>\_<mt|mtd|md|mdd|ml|mld>.<dll|exe|pdb>
 
 ## How can I use it?
 
@@ -47,5 +48,6 @@ Should you have access to one of the missing versions, feel free to compile an e
 
 ## Changes
 
+* 2021-05-21 added new 2019 build (29910). Started to add empty DLLs (Contributions by Daniel Enders @danielenders1)
 * 2019-04-29 added VS6, 2003, 2017, and 2019
 * 2019-04-26 initial commit with VS 2005, 2008, 2010, 2012, 2013, 2015
