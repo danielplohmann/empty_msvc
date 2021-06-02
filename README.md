@@ -1,5 +1,6 @@
 # empty\_msvc
 A collection of "empty" MSVC projects (i.e. main() only consists of "return 0"), compiled using various versions and configurations of Visual Studio along their respective PDB files.
+Created and maintained by Daniel Plohmann and Daniel Enders.
 
 ## What is this good for?
 
@@ -48,6 +49,7 @@ Should you have access to one of the missing versions, feel free to compile an e
 
 ## Changes
 
+* 2021-06-02 added additional build versions for 2013, 2015, 2017. Added remainder of empty DLLs (Contributions by Daniel Enders @danielenders1)
 * 2021-05-21 added new 2019 build (29910). Started to add empty DLLs (Contributions by Daniel Enders @danielenders1)
 * 2019-04-29 added VS6, 2003, 2017, and 2019
 * 2019-04-26 initial commit with VS 2005, 2008, 2010, 2012, 2013, 2015
